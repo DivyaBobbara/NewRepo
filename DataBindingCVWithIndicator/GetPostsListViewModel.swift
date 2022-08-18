@@ -8,8 +8,10 @@
 import Foundation
 import Alamofire
 struct GetPostsListViewModel{
-    let userLists : Observable<[TableViewCellViewModel]> = Observable(value: [])
+    let userLists : Observable<[CVCellViewModel]> = Observable(value: [])
     let isLoading : Observable<Bool> = Observable(value: false)
     let isTableViewHidden : Observable<Bool> = Observable(value: false)
     let title : Observable <String> = Observable(value: "Loading")
+    let isClicked : Observable <Bool> = Observable(value: false)
+    
 }

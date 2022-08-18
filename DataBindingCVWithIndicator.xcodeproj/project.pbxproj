@@ -14,12 +14,15 @@
 		7C46ED1928AE0FE0001062E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C46ED1728AE0FE0001062E9 /* Main.storyboard */; };
 		7C46ED1B28AE0FE1001062E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C46ED1A28AE0FE1001062E9 /* Assets.xcassets */; };
 		7C46ED1E28AE0FE1001062E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C46ED1C28AE0FE1001062E9 /* LaunchScreen.storyboard */; };
-		7C46ED2628AE10D6001062E9 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C46ED2528AE10D6001062E9 /* CollectionViewCell.swift */; };
+		7C46ED2628AE10D6001062E9 /* MemberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C46ED2528AE10D6001062E9 /* MemberCell.swift */; };
 		7C46ED2828AE124C001062E9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C46ED2728AE124C001062E9 /* Model.swift */; };
 		7C46ED2A28AE12D8001062E9 /* GetPostsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C46ED2928AE12D8001062E9 /* GetPostsListViewModel.swift */; };
 		7C46ED2D28AE1326001062E9 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C46ED2C28AE1325001062E9 /* Observable.swift */; };
-		7C46ED2F28AE14F2001062E9 /* TableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C46ED2E28AE14F2001062E9 /* TableViewCellViewModel.swift */; };
+		7C46ED2F28AE14F2001062E9 /* CVCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C46ED2E28AE14F2001062E9 /* CVCellViewModel.swift */; };
 		7C46ED3128AE1909001062E9 /* CVListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C46ED3028AE1909001062E9 /* CVListViewController.swift */; };
+		7C46ED5328AE6F61001062E9 /* CellConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C46ED5228AE6F61001062E9 /* CellConfigurable.swift */; };
+		7C46ED5528AE6FBD001062E9 /* RowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C46ED5428AE6FBD001062E9 /* RowViewModel.swift */; };
+		7C46ED5728AE70A3001062E9 /* MemberCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C46ED5628AE70A3001062E9 /* MemberCellViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,12 +36,15 @@
 		7C46ED1A28AE0FE1001062E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C46ED1D28AE0FE1001062E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C46ED1F28AE0FE1001062E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7C46ED2528AE10D6001062E9 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		7C46ED2528AE10D6001062E9 /* MemberCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberCell.swift; sourceTree = "<group>"; };
 		7C46ED2728AE124C001062E9 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		7C46ED2928AE12D8001062E9 /* GetPostsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPostsListViewModel.swift; sourceTree = "<group>"; };
 		7C46ED2C28AE1325001062E9 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
-		7C46ED2E28AE14F2001062E9 /* TableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellViewModel.swift; sourceTree = "<group>"; };
+		7C46ED2E28AE14F2001062E9 /* CVCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVCellViewModel.swift; sourceTree = "<group>"; };
 		7C46ED3028AE1909001062E9 /* CVListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVListViewController.swift; sourceTree = "<group>"; };
+		7C46ED5228AE6F61001062E9 /* CellConfigurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellConfigurable.swift; sourceTree = "<group>"; };
+		7C46ED5428AE6FBD001062E9 /* RowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowViewModel.swift; sourceTree = "<group>"; };
+		7C46ED5628AE70A3001062E9 /* MemberCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberCellViewModel.swift; sourceTree = "<group>"; };
 		F06B5E72B15DA43D03403DDD /* Pods_DataBindingCVWithIndicator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DataBindingCVWithIndicator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -79,17 +85,28 @@
 				7C46ED1328AE0FE0001062E9 /* SceneDelegate.swift */,
 				7C46ED1528AE0FE0001062E9 /* ViewController.swift */,
 				7C46ED1728AE0FE0001062E9 /* Main.storyboard */,
-				7C46ED2528AE10D6001062E9 /* CollectionViewCell.swift */,
+				7C46ED5828AE70AD001062E9 /* Member */,
 				7C46ED2728AE124C001062E9 /* Model.swift */,
 				7C46ED2928AE12D8001062E9 /* GetPostsListViewModel.swift */,
-				7C46ED2E28AE14F2001062E9 /* TableViewCellViewModel.swift */,
-				7C46ED2C28AE1325001062E9 /* Observable.swift */,
+				7C46ED2E28AE14F2001062E9 /* CVCellViewModel.swift */,
 				7C46ED3028AE1909001062E9 /* CVListViewController.swift */,
+				7C46ED2C28AE1325001062E9 /* Observable.swift */,
+				7C46ED5228AE6F61001062E9 /* CellConfigurable.swift */,
+				7C46ED5428AE6FBD001062E9 /* RowViewModel.swift */,
 				7C46ED1A28AE0FE1001062E9 /* Assets.xcassets */,
 				7C46ED1C28AE0FE1001062E9 /* LaunchScreen.storyboard */,
 				7C46ED1F28AE0FE1001062E9 /* Info.plist */,
 			);
 			path = DataBindingCVWithIndicator;
+			sourceTree = "<group>";
+		};
+		7C46ED5828AE70AD001062E9 /* Member */ = {
+			isa = PBXGroup;
+			children = (
+				7C46ED2528AE10D6001062E9 /* MemberCell.swift */,
+				7C46ED5628AE70A3001062E9 /* MemberCellViewModel.swift */,
+			);
+			path = Member;
 			sourceTree = "<group>";
 		};
 		CA0B20FDE4808434BBA04315 /* Pods */ = {
@@ -224,14 +241,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C46ED5328AE6F61001062E9 /* CellConfigurable.swift in Sources */,
 				7C46ED2828AE124C001062E9 /* Model.swift in Sources */,
 				7C46ED1628AE0FE0001062E9 /* ViewController.swift in Sources */,
 				7C46ED1228AE0FE0001062E9 /* AppDelegate.swift in Sources */,
 				7C46ED2D28AE1326001062E9 /* Observable.swift in Sources */,
-				7C46ED2628AE10D6001062E9 /* CollectionViewCell.swift in Sources */,
+				7C46ED2628AE10D6001062E9 /* MemberCell.swift in Sources */,
 				7C46ED1428AE0FE0001062E9 /* SceneDelegate.swift in Sources */,
-				7C46ED2F28AE14F2001062E9 /* TableViewCellViewModel.swift in Sources */,
+				7C46ED2F28AE14F2001062E9 /* CVCellViewModel.swift in Sources */,
+				7C46ED5728AE70A3001062E9 /* MemberCellViewModel.swift in Sources */,
 				7C46ED3128AE1909001062E9 /* CVListViewController.swift in Sources */,
+				7C46ED5528AE6FBD001062E9 /* RowViewModel.swift in Sources */,
 				7C46ED2A28AE12D8001062E9 /* GetPostsListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
