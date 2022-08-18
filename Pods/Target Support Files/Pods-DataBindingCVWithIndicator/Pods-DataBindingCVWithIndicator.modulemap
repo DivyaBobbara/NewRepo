@@ -1,0 +1,6 @@
+framework module Pods_DataBindingCVWithIndicator {
+  umbrella header "Pods-DataBindingCVWithIndicator-umbrella.h"
+
+  export *
+  module * { export * }
+}
